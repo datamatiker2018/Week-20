@@ -1,4 +1,6 @@
-﻿namespace Week20.A.Two.One
+﻿using System;
+
+namespace Week20.A.Two.One
 {
     class Product
     {
