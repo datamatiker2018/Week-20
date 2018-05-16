@@ -18,9 +18,12 @@
             PricePerUnit = pricePerUnit;
         }
 
-        public decimal GetSubTotal()
+        public decimal SubTotal
         {
-            return PricePerUnit * Quantity;
+            get
+            {
+                return PricePerUnit * Quantity;
+            }
         }
     }
 }
