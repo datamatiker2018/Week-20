@@ -11,9 +11,12 @@
             Quantity = quantity;
         }
 
-        public decimal GetSubTotal()
+        public decimal SubTotal
         {
-            return Product.Price * Quantity;
+            get 
+            {
+                return Product.Price * Quantity;
+            }
         }
     }
 }
