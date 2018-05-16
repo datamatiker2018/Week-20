@@ -25,7 +25,7 @@ namespace Week20.A.Two.Two
 
                 foreach (OrderLine orderLine in OrderLines)
                 {
-                    total += orderLine.GetSubTotal();
+                    total += orderLine.SubTotal;
                 }
 
                 return total;
